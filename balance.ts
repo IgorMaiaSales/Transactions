@@ -60,18 +60,15 @@ console.log(balance);
 
 function getBalanceByCategoryInPeriod(transactions, category, periodStart, periodEnd) {
     
-    var balance = 0
-    var i = 0   
+    var balance = 0   
 
-    do{
+    for (let i = 0; i < transactions.length; i++){
+        
         let date = new Date(transactions[i].time)
 
         if(transactions[i].category == category && date >= periodStart && date < periodEnd)
             balance += transactions[i].amount
-
-        i++
-
-    }while (i < transactions.length)
+    }
 
     return balance
 }
