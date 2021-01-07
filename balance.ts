@@ -5,7 +5,7 @@ const transactions = [
     targetAccount: "coffee_shop",
     amount: -30,
     category: "eating_out",
-    time: "2019-02-15T12:34:00.000Z",
+    time: "2019-02-15T12:34:00Z",
     },
     {
     id: 1234,
@@ -13,7 +13,7 @@ const transactions = [
     targetAccount: "drugstore",
     amount: -5,
     category: "other",
-    time: "2019-03-28T12:34:00.000Z",
+    time: "2019-03-28T12:34:00Z",
     },
     {
     id: 1235,
@@ -21,7 +21,7 @@ const transactions = [
     targetAccount: "my_account",
     amount: 40,
     category: "groceries",
-    time: "2019-03-12T00:00:00.000Z",
+    time: "2019-03-12T00:00:00Z",
     },
     {
     id: 1236,
@@ -29,7 +29,7 @@ const transactions = [
     targetAccount: "grocery_store",
     amount: -10,
     category: "other",
-    time: "2019-03-15T23:59:00.000Z",
+    time: "2019-03-15T23:59:00Z",
     },
     {
     id: 1237,
@@ -37,7 +37,7 @@ const transactions = [
     targetAccount: "grocery_store",
     amount: -25,
     category: "groceries",
-    time: "2019-04-03T12:44:00.000Z",
+    time: "2019-04-03T12:44:00Z",
     },
     {
     id: 1238,
@@ -45,7 +45,7 @@ const transactions = [
     targetAccount: "grocery_store",
     amount: -12,
     category: "groceries",
-    time: "2019-03-16T11:34:00.000Z",
+    time: "2019-03-16T11:34:00Z",
     },
     ];
 
